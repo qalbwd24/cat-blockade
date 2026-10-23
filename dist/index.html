@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="围堵小猫：自定义不规则地图、同屏双人、猫与围堵方独立 AI。离线也能玩。">
+  <title>围堵小猫 · 一步一局势</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ctext y='32' font-size='34'%3E🐈‍⬛%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="./"><span class="brand-icon">猫</span><span>围堵小猫<small>CAT & TRAP</small></span></a><div class="top-meta"><span>同屏双人 · 离线可玩</span><button id="rules-open" class="quiet">玩法说明</button></div></header>
+  <main>
+    <section class="arena">
+      <div class="arena-head"><div><div id="mode-label" class="eyebrow">不规则地图 / 双人对弈</div><h1 id="turn-title">围堵方，落下第一道障碍。</h1><p id="turn-help">点击空地设置障碍，然后轮到小猫移动。</p></div><span id="turn-chip" class="turn-chip">围堵回合</span></div>
+      <div class="board-wrap" id="board-wrap"><svg id="board" viewBox="0 0 720 660" role="group" aria-label="六方向棋盘"></svg><div id="result" class="result" hidden><strong id="result-title"></strong><p id="result-detail"></p><button id="result-replay" class="primary">再来一局</button></div></div>
+      <div class="board-footer"><div class="legend"><span><i class="dot exit"></i>出口</span><span><i class="dot wall"></i>障碍</span><span><i class="dot legal"></i>可走位置</span></div><span id="board-info">准备棋盘…</span></div>
+      <div class="toolbar"><button id="undo">↶ 悔棋</button><button id="swap-sides">换边重玩</button><button id="pause">暂停 AI</button><button id="ai-step">AI 走一步</button><span id="ai-status" role="status"></span></div>
+    </section>
+    <aside>
+      <section class="panel players"><div class="section-title"><h2>对弈双方</h2><span id="move-count">第 1 回合</span></div>
+        <div class="player-row blocker-player"><div class="avatar">▰</div><label for="blocker-controller"><b>围堵方</b><small>封住所有出路</small></label><select id="blocker-controller"><option value="human">人类</option><option value="ai">AI</option></select></div>
+        <div class="player-row cat-player"><div class="avatar">✦</div><label for="cat-controller"><b>小猫方</b><small>抵达任意出口</small></label><select id="cat-controller"><option value="human" selected>人类</option><option value="ai">AI</option></select></div>
+        <div class="field"><label for="difficulty">AI 强度</label><select id="difficulty"><option value="easy">轻快 · 适合练习</option><option value="normal" selected>认真 · 会用必胜策略</option><option value="hard">深思 · 更长搜索</option></select></div>
+        <div class="field"><label for="speed">AI 行动间隔</label><select id="speed"><option value="250">0.25 秒</option><option value="650" selected>0.65 秒</option><option value="1200">1.2 秒</option></select></div>
+        <p class="micro">双方都选人类即可同屏对弈。轻快围堵 AI 只追堵眼前路线；认真与深思会执行已核验的必胜策略。</p>
+      </section>
+      <section class="panel"><div class="section-title"><h2>这一局的地图</h2><button id="edit-map" class="text-button">自定义 ↗</button></div>
+        <label class="stack">地图形状<select id="preset"><option value="island">缺角岛屿</option><option value="crescent">月牙湾</option><option value="ring">环形庭院</option><option value="random">随机岛屿</option><option value="hex">六角原野</option><option value="custom" disabled>自定义地图</option></select></label>
+        <label class="stack">地图大小<select id="map-size"><option value="8">大 · 约 200 格</option><option value="10" selected>加大 · 约 300 格</option><option value="12">超大 · 约 450 格</option></select></label>
+        <div class="field"><label for="density">开局随机障碍</label><output id="density-value">35%</output></div><input id="density" type="range" min="0" max="50" step="1" value="35" aria-label="开局随机障碍比例">
+        <label class="check"><input id="certified-mode" type="checkbox" checked>围堵挑战 · 筛选有解对局</label><p class="micro">从随机散点中挑选：至少四条独立出路，并已证明围堵方可胜。双人可同图换边各玩一局；想挑战逃跑，可选轻快 AI 或关闭筛选。</p>
+        <label class="stack">随机种子 <span class="optional">留空则每局不同</span><input id="seed" maxlength="48" placeholder="例如：猫猫今天不加班"></label>
+        <button id="new-game" class="primary full">开始新的一局</button><button id="cancel-generation" class="quiet full" hidden>取消筛选</button><button id="restart" class="quiet full">重玩当前开局</button>
+        <p class="micro" id="map-note">新地图和障碍比例将在开新局时生效。</p>
+      </section>
+      <section class="panel proof-panel"><div class="section-title"><h2>可解性验证</h2><span id="escape-distance"></span></div><p id="initial-proof" class="micro"></p><p id="proof-status" class="proof-status" role="status">正在核验…</p><p id="proof-detail" class="micro"></p><button id="verify-position" class="quiet full">验证当前局面</button><p class="micro">“围堵方有解”指存在应对猫所有走法的获胜策略。搜索超时只显示“尚未证实”。</p></section>
+      <section class="panel editor-panel" id="editor-panel" hidden><div class="section-title"><h2>地图编辑器</h2><span id="edit-count"></span></div>
+        <div class="brushes" role="group" aria-label="编辑工具"><button data-brush="add" class="selected">＋ 地块</button><button data-brush="erase">－ 擦除</button><button data-brush="cat">猫起点</button><button data-brush="exit">出入口</button><button data-brush="wall">固定障碍</button></div>
+        <label class="check"><input id="auto-exits" type="checkbox" checked>自动把外轮廓设为出口</label>
+        <p class="micro">点击或按住拖动绘制，最多 625 格。虚线是可添加地块；内部空洞不会自动变成出口。取消自动出口后可逐个标记。自定义形状使用实际格数，不受地图大小选项影响。</p>
+        <div class="button-pair"><button id="apply-map" class="primary">应用并开局</button><button id="cancel-edit">取消编辑</button></div>
+        <div class="button-pair"><button id="save-map">保存到本机</button><button id="load-map">读取本机地图</button></div>
+        <div class="button-pair"><button id="export-map">导出 JSON</button><button id="import-map">导入 JSON</button></div><input id="map-file" type="file" accept=".json,application/json" hidden>
+      </section>
+      <section class="panel log-panel"><div class="section-title"><h2>落子记录</h2><span id="seed-label"></span></div><ol id="history"><li>围堵方先手，每人每次行动一步。</li></ol></section>
+    </aside>
+  </main>
+  <footer>六个方向，两种思路。<span>原创本地游戏 · 地图与存档只保存在你的设备</span></footer>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="rules-dialog"><button id="rules-close" class="dialog-close" aria-label="关闭玩法说明">×</button><h2>围住它，或逃出去。</h2><p>围堵方先手，在任意无猫、无障碍的地块放置一个永久障碍。随后小猫向六个相邻地块之一移动一步，不能跳跃或停留。</p><p><b>小猫获胜：</b>走到带绿色外圈的出口。<br><b>围堵方获胜：</b>猫与所有出口之间都不再有通路。即使猫还能在包围圈里移动，也立即结束。</p><p>出口也可以被封堵。不规则地图外部和内部空洞都不能走；自动出口只沿最外侧轮廓生成。编辑器也支持手动指定出口。</p><p>默认在所选形状和障碍数量内生成普通随机散点，再筛选有解对局：保留至少四条独立出路，且围堵方存在应对猫全部选择的获胜策略。不会补造包围线。围堵方走错仍可能输。筛选未成功会保留当前棋盘，不会偷偷改变地图或障碍比例。关闭筛选后可自由开局，此时不保证哪一方必胜。相同地图、比例、模式和种子可复现开局。</p><p>“有通路”只是基本合法性；可解性由独立验证器判定，显示已证明围堵方可胜、已证明小猫可逃或尚未证实。大地图的完整对抗搜索可能超时，超时不等于无解。</p><p>人类和 AI 可以随时切换。暂停后可让当前方的 AI 单步行动；人类回合仍可点击。悔棋和手动验证都会暂停 AI。</p><p class="micro">认真与深思 AI 优先执行已核验的分支策略，未找到证明时使用有限深度对抗搜索；轻快围堵 AI 只追堵眼前路线，轻快猫使用短搜索。猫会评估下一步被封死的风险。双方 AI 都受相同规则约束。</p></dialog>
+  <script src="rules.js"></script><script src="solver.js"></script><script src="proof.js"></script><script src="openings.js"></script><script src="tactics.js"></script><script src="ai.js"></script><script src="app.js"></script>
+</body></html>

@@ -1,0 +1,88 @@
+[
+  {
+    "shape": "hex3",
+    "seed": "research-holdout-0",
+    "density": 18,
+    "budget": 5000,
+    "maxNodes": 300000,
+    "status": "unknown",
+    "reason": "nodes",
+    "nodes": 300000,
+    "expanded": 52462,
+    "ms": 2616,
+    "verification": null
+  },
+  {
+    "shape": "hex3",
+    "seed": "research-holdout-1",
+    "density": 18,
+    "budget": 5000,
+    "maxNodes": 300000,
+    "status": "cat",
+    "reason": "complete",
+    "nodes": 102047,
+    "expanded": 17703,
+    "ms": 817,
+    "verification": {
+      "valid": true,
+      "winner": "cat",
+      "checked": 16716
+    }
+  },
+  {
+    "shape": "hex3",
+    "seed": "research-holdout-2",
+    "density": 18,
+    "budget": 5000,
+    "maxNodes": 300000,
+    "status": "cat",
+    "reason": "complete",
+    "nodes": 166290,
+    "expanded": 28612,
+    "ms": 1275,
+    "verification": {
+      "valid": true,
+      "winner": "cat",
+      "checked": 20101
+    }
+  },
+  {
+    "shape": "island10",
+    "seed": "research-holdout-0",
+    "density": 18,
+    "budget": 5000,
+    "maxNodes": 300000,
+    "status": "unknown",
+    "reason": "time",
+    "nodes": 113453,
+    "expanded": 14768,
+    "ms": 5000,
+    "verification": null
+  },
+  {
+    "shape": "island10",
+    "seed": "research-holdout-1",
+    "density": 18,
+    "budget": 5000,
+    "maxNodes": 300000,
+    "status": "unknown",
+    "reason": "time",
+    "nodes": 126261,
+    "expanded": 12467,
+    "ms": 5000,
+    "verification": null
+  },
+  {
+    "shape": "island10",
+    "seed": "research-holdout-2",
+    "density": 18,
+    "budget": 5000,
+    "maxNodes": 300000,
+    "status": "unknown",
+    "reason": "time",
+    "nodes": 95313,
+    "expanded": 11045,
+    "ms": 5000,
+    "verification": null
+  }
+]

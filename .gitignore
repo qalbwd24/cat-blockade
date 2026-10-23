@@ -1,0 +1,5 @@
+﻿# 工具配置与临时文件
+.openai/
+node_modules/
+*.log
+tmp/

@@ -1,0 +1,652 @@
+{
+  "date": "2026-09-11T05:03:23.114Z",
+  "density": 35,
+  "aiBudgetMs": 80,
+  "rows": [
+    {
+      "shape": "island",
+      "radius": 8,
+      "seed": "release-play-island-0",
+      "cells": 207,
+      "quality": {
+        "distance": 8,
+        "routes": 4,
+        "area": 132,
+        "exits": 28,
+        "neighbors": 5,
+        "acceptable": true,
+        "resistancePlies": 11
+      },
+      "attempts": 5,
+      "generationMs": 959,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 11,
+          "maxMs": 2,
+          "proofMoves": 6
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 13,
+          "maxMs": 12,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 15,
+          "maxMs": 40,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "island",
+      "radius": 10,
+      "seed": "release-play-island-1",
+      "cells": 321,
+      "quality": {
+        "distance": 9,
+        "routes": 4,
+        "area": 205,
+        "exits": 32,
+        "neighbors": 5,
+        "acceptable": true,
+        "resistancePlies": 27
+      },
+      "attempts": 8,
+      "generationMs": 1226,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 27,
+          "maxMs": 2,
+          "proofMoves": 14
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 9,
+          "maxMs": 7,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 13,
+          "maxMs": 80,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "island",
+      "radius": 12,
+      "seed": "release-play-island-2",
+      "cells": 459,
+      "quality": {
+        "distance": 12,
+        "routes": 4,
+        "area": 299,
+        "exits": 51,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 41
+      },
+      "attempts": 24,
+      "generationMs": 7528,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 41,
+          "maxMs": 3,
+          "proofMoves": 21
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 23,
+          "maxMs": 16,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 7,
+          "maxMs": 54,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "crescent",
+      "radius": 8,
+      "seed": "release-play-crescent-0",
+      "cells": 208,
+      "quality": {
+        "distance": 7,
+        "routes": 4,
+        "area": 135,
+        "exits": 31,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 15
+      },
+      "attempts": 4,
+      "generationMs": 521,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 15,
+          "maxMs": 1,
+          "proofMoves": 8
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 15,
+          "maxMs": 4,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 13,
+          "maxMs": 76,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "crescent",
+      "radius": 10,
+      "seed": "release-play-crescent-1",
+      "cells": 315,
+      "quality": {
+        "distance": 8,
+        "routes": 4,
+        "area": 200,
+        "exits": 36,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 27
+      },
+      "attempts": 35,
+      "generationMs": 7350,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 27,
+          "maxMs": 2,
+          "proofMoves": 14
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 25,
+          "maxMs": 7,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 23,
+          "maxMs": 80,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "crescent",
+      "radius": 12,
+      "seed": "release-play-crescent-2",
+      "cells": 444,
+      "quality": {
+        "distance": 10,
+        "routes": 4,
+        "area": 284,
+        "exits": 41,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 23
+      },
+      "attempts": 22,
+      "generationMs": 6333,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 23,
+          "maxMs": 2,
+          "proofMoves": 12
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 21,
+          "maxMs": 12,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 27,
+          "maxMs": 80,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "ring",
+      "radius": 8,
+      "seed": "release-play-ring-0",
+      "cells": 210,
+      "quality": {
+        "distance": 8,
+        "routes": 4,
+        "area": 87,
+        "exits": 17,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 11
+      },
+      "attempts": 2,
+      "generationMs": 20,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 11,
+          "maxMs": 0,
+          "proofMoves": 6
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "cat",
+          "plies": 18,
+          "maxMs": 3,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "cat",
+          "plies": 20,
+          "maxMs": 63,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "ring",
+      "radius": 10,
+      "seed": "release-play-ring-1",
+      "cells": 324,
+      "quality": {
+        "distance": 10,
+        "routes": 6,
+        "area": 198,
+        "exits": 33,
+        "neighbors": 6,
+        "acceptable": true,
+        "resistancePlies": 11
+      },
+      "attempts": 30,
+      "generationMs": 4499,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 11,
+          "maxMs": 1,
+          "proofMoves": 6
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 37,
+          "maxMs": 8,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 33,
+          "maxMs": 80,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "ring",
+      "radius": 12,
+      "seed": "release-play-ring-2",
+      "cells": 462,
+      "quality": {
+        "distance": 12,
+        "routes": 4,
+        "area": 289,
+        "exits": 36,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 25
+      },
+      "attempts": 2,
+      "generationMs": 889,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 25,
+          "maxMs": 3,
+          "proofMoves": 13
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 23,
+          "maxMs": 11,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 35,
+          "maxMs": 80,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "random",
+      "radius": 8,
+      "seed": "release-play-random-0",
+      "cells": 157,
+      "quality": {
+        "distance": 6,
+        "routes": 4,
+        "area": 93,
+        "exits": 34,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 11
+      },
+      "attempts": 33,
+      "generationMs": 2216,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 11,
+          "maxMs": 0,
+          "proofMoves": 6
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "cat",
+          "plies": 12,
+          "maxMs": 2,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "cat",
+          "plies": 12,
+          "maxMs": 21,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "random",
+      "radius": 10,
+      "seed": "release-play-random-1",
+      "cells": 258,
+      "quality": {
+        "distance": 8,
+        "routes": 4,
+        "area": 156,
+        "exits": 39,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 13
+      },
+      "attempts": 7,
+      "generationMs": 822,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 13,
+          "maxMs": 1,
+          "proofMoves": 7
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 17,
+          "maxMs": 4,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "cat",
+          "plies": 18,
+          "maxMs": 80,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "random",
+      "radius": 12,
+      "seed": "release-play-random-2",
+      "cells": 384,
+      "quality": {
+        "distance": 10,
+        "routes": 4,
+        "area": 241,
+        "exits": 58,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 31
+      },
+      "attempts": 7,
+      "generationMs": 1318,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 31,
+          "maxMs": 2,
+          "proofMoves": 16
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 15,
+          "maxMs": 8,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 15,
+          "maxMs": 80,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "hex",
+      "radius": 8,
+      "seed": "release-play-hex-0",
+      "cells": 217,
+      "quality": {
+        "distance": 8,
+        "routes": 4,
+        "area": 123,
+        "exits": 21,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 13
+      },
+      "attempts": 45,
+      "generationMs": 3722,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 13,
+          "maxMs": 1,
+          "proofMoves": 7
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 11,
+          "maxMs": 3,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 21,
+          "maxMs": 49,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "hex",
+      "radius": 10,
+      "seed": "release-play-hex-1",
+      "cells": 331,
+      "quality": {
+        "distance": 10,
+        "routes": 4,
+        "area": 215,
+        "exits": 46,
+        "neighbors": 4,
+        "acceptable": true,
+        "resistancePlies": 13
+      },
+      "attempts": 24,
+      "generationMs": 3684,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 13,
+          "maxMs": 1,
+          "proofMoves": 7
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 23,
+          "maxMs": 7,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 21,
+          "maxMs": 80,
+          "proofMoves": 0
+        }
+      ]
+    },
+    {
+      "shape": "hex",
+      "radius": 12,
+      "seed": "release-play-hex-2",
+      "cells": 469,
+      "quality": {
+        "distance": 12,
+        "routes": 6,
+        "area": 302,
+        "exits": 41,
+        "neighbors": 6,
+        "acceptable": true,
+        "resistancePlies": 11
+      },
+      "attempts": 40,
+      "generationMs": 11327,
+      "games": [
+        {
+          "blocker": "normal",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 11,
+          "maxMs": 1,
+          "proofMoves": 6
+        },
+        {
+          "blocker": "easy",
+          "cat": "easy",
+          "winner": "blocker",
+          "plies": 29,
+          "maxMs": 16,
+          "proofMoves": 0
+        },
+        {
+          "blocker": "easy",
+          "cat": "normal",
+          "winner": "blocker",
+          "plies": 33,
+          "maxMs": 80,
+          "proofMoves": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-09-11T03:58:04.234Z",
+  "definition": "围堵方存在对所有合法猫行动均获胜的策略。AI 对战胜率只作运行检查，不作可解性证明。",
+  "previousRun": {
+    "radius": 5,
+    "density": 12,
+    "AI": {
+      "ms": 20,
+      "depth": 2
+    },
+    "seeds": "audit0 through audit9",
+    "rows": [
+      {
+        "map": "island",
+        "maxCells": 67,
+        "minimumEscapeSteps": 2,
+        "blockerWins": 0,
+        "games": 10,
+        "averageActions": 11.6
+      },
+      {
+        "map": "crescent",
+        "maxCells": 75,
+        "minimumEscapeSteps": 3,
+        "blockerWins": 0,
+        "games": 10,
+        "averageActions": 10.8
+      },
+      {
+        "map": "ring",
+        "maxCells": 84,
+        "minimumEscapeSteps": 5,
+        "blockerWins": 0,
+        "games": 10,
+        "averageActions": 11.8
+      },
+      {
+        "map": "random",
+        "maxCells": 64,
+        "minimumEscapeSteps": 2,
+        "blockerWins": 0,
+        "games": 10,
+        "averageActions": 6.4
+      },
+      {
+        "map": "hex",
+        "maxCells": 91,
+        "minimumEscapeSteps": 5,
+        "blockerWins": 0,
+        "games": 10,
+        "averageActions": 12.2
+      }
+    ],
+    "note": "Captured before this revision. This script does not recreate the old source."
+  },
+  "currentRun": {
+    "radius": 10,
+    "density": 18,
+    "mode": "certified",
+    "catAI": {
+      "ms": 20,
+      "depth": 2
+    },
+    "blockerAI": "verified plan first",
+    "seeds": "audit0 through audit9",
+    "rows": [
+      {
+        "map": "island",
+        "cells": [
+          321,
+          321
+        ],
+        "escapeDistance": [
+          8,
+          10
+        ],
+        "provenBlockPlacements": [
+          5,
+          5
+        ],
+        "individuallyVerified": 10,
+        "blockerWins": 10,
+        "games": 10,
+        "averageActions": 9
+      },
+      {
+        "map": "crescent",
+        "cells": [
+          315,
+          315
+        ],
+        "escapeDistance": [
+          8,
+          8
+        ],
+        "provenBlockPlacements": [
+          5,
+          5
+        ],
+        "individuallyVerified": 10,
+        "blockerWins": 10,
+        "games": 10,
+        "averageActions": 9
+      },
+      {
+        "map": "ring",
+        "cells": [
+          324,
+          324
+        ],
+        "escapeDistance": [
+          10,
+          10
+        ],
+        "provenBlockPlacements": [
+          6,
+          7
+        ],
+        "individuallyVerified": 10,
+        "blockerWins": 10,
+        "games": 10,
+        "averageActions": 12.8
+      },
+      {
+        "map": "random",
+        "cells": [
+          255,
+          269
+        ],
+        "escapeDistance": [
+          8,
+          8
+        ],
+        "provenBlockPlacements": [
+          5,
+          5
+        ],
+        "individuallyVerified": 10,
+        "blockerWins": 10,
+        "games": 10,
+        "averageActions": 9
+      },
+      {
+        "map": "hex",
+        "cells": [
+          331,
+          331
+        ],
+        "escapeDistance": [
+          10,
+          10
+        ],
+        "provenBlockPlacements": [
+          7,
+          7
+        ],
+        "individuallyVerified": 10,
+        "blockerWins": 10,
+        "games": 10,
+        "averageActions": 13
+      }
+    ]
+  },
+  "testEvidence": {
+    "command": "npm test",
+    "passed": 42,
+    "smallStatesAgainstIndependentOracle": 256,
+    "generatedCertificates": 180,
+    "recursiveReferenceCertificates": 15,
+    "note": "Recorded from the accompanying successful test run; these counts are not inferred from AI wins."
+  }
+}

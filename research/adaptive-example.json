@@ -1,0 +1,174 @@
+{
+  "seed": "adaptive-0",
+  "map": {
+    "version": 1,
+    "name": "研究六角地图 r=2",
+    "cells": [
+      "-2,0",
+      "-2,1",
+      "-2,2",
+      "-1,-1",
+      "-1,0",
+      "-1,1",
+      "-1,2",
+      "0,-2",
+      "0,-1",
+      "0,0",
+      "0,1",
+      "0,2",
+      "1,-2",
+      "1,-1",
+      "1,0",
+      "1,1",
+      "2,-2",
+      "2,-1",
+      "2,0"
+    ],
+    "start": "0,0",
+    "exits": [
+      "0,-2",
+      "-1,-1",
+      "-2,0",
+      "1,-2",
+      "-2,1",
+      "2,-2",
+      "-2,2",
+      "2,-1",
+      "-1,2",
+      "2,0",
+      "0,2",
+      "1,1"
+    ],
+    "autoExits": true,
+    "fixed": [
+      "0,-2",
+      "1,-2",
+      "0,-1",
+      "-1,1",
+      "-2,1",
+      "2,-1",
+      "0,2",
+      "-2,2",
+      "-2,0",
+      "0,1"
+    ]
+  },
+  "initial": {
+    "cat": 9,
+    "blocked": [
+      7,
+      12,
+      8,
+      5,
+      1,
+      17,
+      11,
+      2,
+      0,
+      10
+    ],
+    "turn": "blocker"
+  },
+  "oracle": {
+    "status": "blocker",
+    "nodes": 310
+  },
+  "fixed": {
+    "exists": false,
+    "plan": null,
+    "nodes": 50
+  },
+  "result": {
+    "status": "blocker",
+    "reason": "complete",
+    "nodes": 123,
+    "expanded": 35,
+    "ms": 1,
+    "certificate": {
+      "version": 1,
+      "winner": "blocker",
+      "root": 0,
+      "nodes": {
+        "0": {
+          "moves": [
+            {
+              "action": 14,
+              "to": 5
+            }
+          ]
+        },
+        "5": {
+          "moves": [
+            {
+              "action": 4,
+              "to": 20
+            },
+            {
+              "action": 13,
+              "to": 19
+            }
+          ]
+        },
+        "19": {
+          "moves": [
+            {
+              "action": 16,
+              "to": 109
+            }
+          ]
+        },
+        "20": {
+          "moves": [
+            {
+              "action": 3,
+              "to": 99
+            }
+          ]
+        },
+        "78": {
+          "terminal": "blocker"
+        },
+        "99": {
+          "moves": [
+            {
+              "action": 9,
+              "to": 118
+            }
+          ]
+        },
+        "109": {
+          "moves": [
+            {
+              "action": 9,
+              "to": 111
+            }
+          ]
+        },
+        "111": {
+          "moves": [
+            {
+              "action": 3,
+              "to": 112
+            }
+          ]
+        },
+        "112": {
+          "terminal": "blocker"
+        },
+        "118": {
+          "moves": [
+            {
+              "action": 13,
+              "to": 78
+            }
+          ]
+        }
+      }
+    }
+  },
+  "verification": {
+    "valid": true,
+    "winner": "blocker",
+    "checked": 10
+  }
+}

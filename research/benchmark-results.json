@@ -1,0 +1,1282 @@
+{
+  "date": "2026-09-11T04:20:56.204Z",
+  "runtime": "v24.18.1",
+  "cpu": "Intel(R) Core(TM) Ultra 5 338H",
+  "settings": {
+    "ms": 500,
+    "maxNodes": 30000,
+    "oldMaxDepth": 30,
+    "generator": "R.createGame; no createCertified, no rejection sampling",
+    "seeds": 3
+  },
+  "rows": [
+    {
+      "shape": "hex2",
+      "cells": 19,
+      "density": 18,
+      "seed": "research-holdout-0",
+      "randomCount": 3,
+      "distance": 2,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 1226,
+        "expanded": 217,
+        "ms": 6,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 295
+        }
+      },
+      "hybrid": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 1226,
+        "expanded": 217,
+        "ms": 10,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 295
+        }
+      },
+      "old": {
+        "status": "cat",
+        "nodes": 360,
+        "ms": 10
+      }
+    },
+    {
+      "shape": "hex2",
+      "cells": 19,
+      "density": 18,
+      "seed": "research-holdout-1",
+      "randomCount": 3,
+      "distance": 2,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 1365,
+        "expanded": 247,
+        "ms": 3,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 345
+        }
+      },
+      "hybrid": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 1365,
+        "expanded": 247,
+        "ms": 7,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 345
+        }
+      },
+      "old": {
+        "status": "cat",
+        "nodes": 360,
+        "ms": 6
+      }
+    },
+    {
+      "shape": "hex2",
+      "cells": 19,
+      "density": 18,
+      "seed": "research-holdout-2",
+      "randomCount": 3,
+      "distance": 2,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 1323,
+        "expanded": 214,
+        "ms": 2,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 269
+        }
+      },
+      "hybrid": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 1323,
+        "expanded": 214,
+        "ms": 7,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 269
+        }
+      },
+      "old": {
+        "status": "cat",
+        "nodes": 692,
+        "ms": 10
+      }
+    },
+    {
+      "shape": "hex2",
+      "cells": 19,
+      "density": 35,
+      "seed": "research-holdout-0",
+      "randomCount": 6,
+      "distance": 2,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 822,
+        "expanded": 183,
+        "ms": 3,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 199
+        }
+      },
+      "hybrid": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 763,
+        "expanded": 165,
+        "ms": 6,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 199
+        }
+      },
+      "old": {
+        "status": "cat",
+        "nodes": 234,
+        "ms": 3
+      }
+    },
+    {
+      "shape": "hex2",
+      "cells": 19,
+      "density": 35,
+      "seed": "research-holdout-1",
+      "randomCount": 6,
+      "distance": 2,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 870,
+        "expanded": 220,
+        "ms": 2,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 313
+        }
+      },
+      "hybrid": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 839,
+        "expanded": 216,
+        "ms": 5,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 313
+        }
+      },
+      "old": {
+        "status": "cat",
+        "nodes": 234,
+        "ms": 3
+      }
+    },
+    {
+      "shape": "hex2",
+      "cells": 19,
+      "density": 35,
+      "seed": "research-holdout-2",
+      "randomCount": 6,
+      "distance": 2,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 1239,
+        "expanded": 264,
+        "ms": 2,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 217
+        }
+      },
+      "hybrid": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 1141,
+        "expanded": 235,
+        "ms": 7,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 217
+        }
+      },
+      "old": {
+        "status": "cat",
+        "nodes": 719,
+        "ms": 17
+      }
+    },
+    {
+      "shape": "hex2",
+      "cells": 19,
+      "density": 55,
+      "seed": "research-holdout-0",
+      "randomCount": 10,
+      "distance": 2,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 44,
+        "expanded": 11,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 6
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "hex2",
+      "cells": 19,
+      "density": 55,
+      "seed": "research-holdout-1",
+      "randomCount": 10,
+      "distance": 2,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 345,
+        "expanded": 122,
+        "ms": 1,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 103
+        }
+      },
+      "hybrid": {
+        "status": "cat",
+        "reason": "complete",
+        "nodes": 220,
+        "expanded": 68,
+        "ms": 1,
+        "verification": {
+          "valid": true,
+          "winner": "cat",
+          "checked": 103
+        }
+      },
+      "old": {
+        "status": "cat",
+        "nodes": 118,
+        "ms": 1
+      }
+    },
+    {
+      "shape": "hex2",
+      "cells": 19,
+      "density": 55,
+      "seed": "research-holdout-2",
+      "randomCount": 10,
+      "distance": 2,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 268,
+        "expanded": 73,
+        "ms": 1,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 16
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 51,
+        "expanded": 11,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 7
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 6,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "hex3",
+      "cells": 37,
+      "density": 18,
+      "seed": "research-holdout-0",
+      "randomCount": 6,
+      "distance": 3,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4691,
+        "ms": 97,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4691,
+        "ms": 214,
+        "verification": null
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 19588,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "hex3",
+      "cells": 37,
+      "density": 18,
+      "seed": "research-holdout-1",
+      "randomCount": 6,
+      "distance": 3,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4964,
+        "ms": 70,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4968,
+        "ms": 204,
+        "verification": null
+      },
+      "old": {
+        "status": "cat",
+        "nodes": 19500,
+        "ms": 434
+      }
+    },
+    {
+      "shape": "hex3",
+      "cells": 37,
+      "density": 18,
+      "seed": "research-holdout-2",
+      "randomCount": 6,
+      "distance": 3,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4848,
+        "ms": 66,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4848,
+        "ms": 205,
+        "verification": null
+      },
+      "old": {
+        "status": "cat",
+        "nodes": 23694,
+        "ms": 482
+      }
+    },
+    {
+      "shape": "hex3",
+      "cells": 37,
+      "density": 35,
+      "seed": "research-holdout-0",
+      "randomCount": 13,
+      "distance": 3,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 5324,
+        "ms": 66,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 5335,
+        "ms": 208,
+        "verification": null
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 23695,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "hex3",
+      "cells": 37,
+      "density": 35,
+      "seed": "research-holdout-1",
+      "randomCount": 13,
+      "distance": 3,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 5785,
+        "ms": 68,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 16466,
+        "expanded": 3237,
+        "ms": 117,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 51
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 9270,
+        "ms": 170
+      }
+    },
+    {
+      "shape": "hex3",
+      "cells": 37,
+      "density": 35,
+      "seed": "research-holdout-2",
+      "randomCount": 13,
+      "distance": 3,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 27665,
+        "expanded": 5254,
+        "ms": 59,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 95
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 16439,
+        "expanded": 3170,
+        "ms": 111,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 63
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 7114,
+        "ms": 113
+      }
+    },
+    {
+      "shape": "hex3",
+      "cells": 37,
+      "density": 55,
+      "seed": "research-holdout-0",
+      "randomCount": 20,
+      "distance": 3,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1685,
+        "expanded": 348,
+        "ms": 3,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 33
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "hex3",
+      "cells": 37,
+      "density": 55,
+      "seed": "research-holdout-1",
+      "randomCount": 20,
+      "distance": 3,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 4758,
+        "expanded": 1265,
+        "ms": 9,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 38
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1394,
+        "expanded": 332,
+        "ms": 9,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 15
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1949,
+        "ms": 27
+      }
+    },
+    {
+      "shape": "hex3",
+      "cells": 37,
+      "density": 55,
+      "seed": "research-holdout-2",
+      "randomCount": 20,
+      "distance": 3,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 92,
+        "expanded": 19,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 6
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "hex5",
+      "cells": 91,
+      "density": 18,
+      "seed": "research-holdout-0",
+      "randomCount": 16,
+      "distance": 5,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 3191,
+        "ms": 114,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 3191,
+        "ms": 329,
+        "verification": null
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 9044,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "hex5",
+      "cells": 91,
+      "density": 18,
+      "seed": "research-holdout-1",
+      "randomCount": 16,
+      "distance": 5,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 2970,
+        "ms": 103,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 2970,
+        "ms": 313,
+        "verification": null
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 8332,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "hex5",
+      "cells": 91,
+      "density": 18,
+      "seed": "research-holdout-2",
+      "randomCount": 16,
+      "distance": 5,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4402,
+        "ms": 112,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4402,
+        "ms": 404,
+        "verification": null
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 8397,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "hex5",
+      "cells": 91,
+      "density": 35,
+      "seed": "research-holdout-0",
+      "randomCount": 32,
+      "distance": 5,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 28784,
+        "expanded": 5714,
+        "ms": 115,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 34
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "hex5",
+      "cells": 91,
+      "density": 35,
+      "seed": "research-holdout-1",
+      "randomCount": 32,
+      "distance": 5,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 7459,
+        "expanded": 1599,
+        "ms": 26,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 8
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 463,
+        "expanded": 94,
+        "ms": 6,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 4
+        }
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 11569,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "hex5",
+      "cells": 91,
+      "density": 35,
+      "seed": "research-holdout-2",
+      "randomCount": 32,
+      "distance": 5,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 59,
+        "expanded": 1,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 2
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "hex5",
+      "cells": 91,
+      "density": 55,
+      "seed": "research-holdout-0",
+      "randomCount": 50,
+      "distance": 5,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 41,
+        "expanded": 1,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 2
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "hex5",
+      "cells": 91,
+      "density": 55,
+      "seed": "research-holdout-1",
+      "randomCount": 50,
+      "distance": 5,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 313,
+        "expanded": 64,
+        "ms": 1,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 4
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "hex5",
+      "cells": 91,
+      "density": 55,
+      "seed": "research-holdout-2",
+      "randomCount": 50,
+      "distance": 5,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 41,
+        "expanded": 1,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 2
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "island10",
+      "cells": 321,
+      "density": 18,
+      "seed": "research-holdout-0",
+      "randomCount": 58,
+      "distance": 8,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4011,
+        "ms": 329,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "time",
+        "nodes": 10246,
+        "expanded": 1545,
+        "ms": 500,
+        "verification": null
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 516,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "island10",
+      "cells": 321,
+      "density": 18,
+      "seed": "research-holdout-1",
+      "randomCount": 58,
+      "distance": 8,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 3417,
+        "ms": 340,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "time",
+        "nodes": 12501,
+        "expanded": 1384,
+        "ms": 500,
+        "verification": null
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 729,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "island10",
+      "cells": 321,
+      "density": 18,
+      "seed": "research-holdout-2",
+      "randomCount": 58,
+      "distance": 8,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 3641,
+        "ms": 330,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "time",
+        "nodes": 8779,
+        "expanded": 1305,
+        "ms": 500,
+        "verification": null
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 501,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "island10",
+      "cells": 321,
+      "density": 35,
+      "seed": "research-holdout-0",
+      "randomCount": 112,
+      "distance": 8,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 5225,
+        "ms": 343,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 2503,
+        "expanded": 496,
+        "ms": 161,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 6
+        }
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 221,
+        "ms": 505
+      }
+    },
+    {
+      "shape": "island10",
+      "cells": 321,
+      "density": 35,
+      "seed": "research-holdout-1",
+      "randomCount": 112,
+      "distance": 9,
+      "staticPlanFound": false,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 4061,
+        "ms": 325,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "unknown",
+        "reason": "time",
+        "nodes": 9546,
+        "expanded": 1336,
+        "ms": 500,
+        "verification": null
+      },
+      "old": {
+        "status": "unknown",
+        "nodes": 160,
+        "ms": 500
+      }
+    },
+    {
+      "shape": "island10",
+      "cells": 321,
+      "density": 35,
+      "seed": "research-holdout-2",
+      "randomCount": 112,
+      "distance": 9,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "unknown",
+        "reason": "nodes",
+        "nodes": 30000,
+        "expanded": 5018,
+        "ms": 331,
+        "verification": null
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 1,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 1
+      }
+    },
+    {
+      "shape": "island10",
+      "cells": 321,
+      "density": 55,
+      "seed": "research-holdout-0",
+      "randomCount": 176,
+      "distance": 10,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1571,
+        "expanded": 292,
+        "ms": 14,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 6
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "island10",
+      "cells": 321,
+      "density": 55,
+      "seed": "research-holdout-1",
+      "randomCount": 176,
+      "distance": 13,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 145,
+        "expanded": 1,
+        "ms": 1,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 2
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    },
+    {
+      "shape": "island10",
+      "cells": 321,
+      "density": 55,
+      "seed": "research-holdout-2",
+      "randomCount": 176,
+      "distance": 10,
+      "staticPlanFound": true,
+      "pns": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 145,
+        "expanded": 1,
+        "ms": 1,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 2
+        }
+      },
+      "hybrid": {
+        "status": "blocker",
+        "reason": "complete",
+        "nodes": 1,
+        "expanded": 0,
+        "ms": 0,
+        "verification": {
+          "valid": true,
+          "winner": "blocker",
+          "checked": 1
+        }
+      },
+      "old": {
+        "status": "blocker",
+        "nodes": 1,
+        "ms": 0
+      }
+    }
+  ]
+}
